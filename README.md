@@ -12,6 +12,11 @@ The way it works is quite simple: you only need to create 3 tables on your Notio
 
 In the best case, use a VPS and create a cron job that will automatically launch this script every 6 hours
 
+# Requirements
+
+Twilio : ```pip3 install twilio```
+Notion : ```pip3 install notion```
+
 # The variables to be modified
 
 ### These informations allow the script to send reminder SMS (i'm using https://www.twilio.com/fr/)
