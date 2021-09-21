@@ -38,4 +38,4 @@ In the best case, use a VPS and create a cron job that will automatically launch
 
 You just have to create 3 identical tables and add your tasks to the main table
 
-![Notion](notion.png)
+![Notion](notion.PNG)
