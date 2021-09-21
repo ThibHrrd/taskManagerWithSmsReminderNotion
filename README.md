@@ -28,6 +28,5 @@ cvListeFinies = client.get_collection_view("LINK TO THE DATABASE WITH ALL DONE T
 
 To obtain the token_v2, you can use an extension that allows you to see your cookies on your browser. You just have to copy the cookie token_v2 :
 
-[token.png]
-
+![Token x2](token.png)
 token_v2="[YOUR TOKEN V2 (FROM COOKIES)]"
