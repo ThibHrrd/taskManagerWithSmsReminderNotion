@@ -14,26 +14,19 @@ Le fonctionnement est assez simple : vous devez seulement créer 3 tableaux sur 
 
 These informations allow the script to send reminder SMS (i'm using https://www.twilio.com/fr/)
 
-#### H4
-• account_sid = "TWILIO ACCOUT SID"
-#### H4
-• auth_token = "TWILIO AUTH TOKEN"
-#### H4
-• myPhoneNumber = "YOUR PHONE NUMBER (+33x xx xx xx xx for France)"
-#### H4
-• twilioPhoneNumber = "TWILIO PHONE NUMBER"
+#### • account_sid = "TWILIO ACCOUT SID"
+#### • auth_token = "TWILIO AUTH TOKEN"
+#### • myPhoneNumber = "YOUR PHONE NUMBER (+33x xx xx xx xx for France)"
+#### • twilioPhoneNumber = "TWILIO PHONE NUMBER"
 
 
 To obtain these tokens, just open your database as a page and copy the URL.
-#### H4
-• cvListeTotale = client.get_collection_view("LINK TO MAIN DATABASE WITH ALL TASK TO DO")
-#### H4
-• cvListeUrgente = client.get_collection_view("LINK TO URGENT DATABASE")
-#### H4
-• cvListeFinies = client.get_collection_view("LINK TO THE DATABASE WITH ALL DONE TASK")
+
+#### • cvListeTotale = client.get_collection_view("LINK TO MAIN DATABASE WITH ALL TASK TO DO")
+#### • cvListeUrgente = client.get_collection_view("LINK TO URGENT DATABASE")
+#### • cvListeFinies = client.get_collection_view("LINK TO THE DATABASE WITH ALL DONE TASK")
 
 To obtain the token_v2, you can use an extension that allows you to see your cookies on your browser. You just have to copy the cookie token_v2 :
 
 ![Token x2](token.png)
-#### H4
-token_v2="[YOUR TOKEN V2 (FROM COOKIES)]"
+#### token_v2="[YOUR TOKEN V2 (FROM COOKIES)]"
