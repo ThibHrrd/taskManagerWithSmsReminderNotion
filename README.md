@@ -8,7 +8,7 @@ Main goal : to allow you to sort your tasks and school reports. To do so, you ju
 
 # Usage
 
-Le fonctionnement est assez simple : vous devez seulement créer 3 tableaux sur votre page Notion. Le premier sera celui où vous rentrez les tâches que vous avez à faire, le second contiendra toute les tâches urgentes et le troisièmes sera pour les tâches finies (lorsque vous cochez une tâche, le script considère que vous l'avez finies et la déplaces)
+The way it works is quite simple: you only need to create 3 tables on your Notion page. The first one will be the one where you enter the tasks you have to do, the second one will contain all the urgent tasks and the third one will be for the finished tasks (when you check a task, the script considers that you have finished it and moves it)
 
 In the best case, use a VPS and create a cron job that will automatically launch this script every 6 hours
 
