@@ -15,7 +15,8 @@ In the best case, use a VPS and create a cron job that will automatically launch
 # Requirements
 
 Twilio : ```pip3 install twilio```
-Notion : ```pip3 install notion```
+
+Notion : ```pip3 install git+https://github.com/jamalex/notion-py.git@refs/pull/294/merge```
 
 # The variables to be modified
 
